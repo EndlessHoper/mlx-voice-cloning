@@ -9,7 +9,7 @@ torch>=2.1.0
 torchaudio>=2.1.0
 
 # MLX backend (Apple Silicon) — requires transformers==5.0.0rc3
-mlx-audio
+mlx-audio @ git+https://github.com/Blaizzy/mlx-audio.git
 transformers==5.0.0rc3
 
 # PyTorch backend (CPU / CUDA) — optional, needs transformers==4.57.3 (conflicts with MLX)
