@@ -1,0 +1,16 @@
+fastapi>=0.110.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9
+soundfile>=0.12.1
+numpy
+
+# Audio processing (resampling, format conversion)
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# MLX backend (Apple Silicon) — requires transformers==5.0.0rc3
+mlx-audio
+transformers==5.0.0rc3
+
+# PyTorch backend (CPU / CUDA) — optional, needs transformers==4.57.3 (conflicts with MLX)
+# qwen-tts>=0.0.8
