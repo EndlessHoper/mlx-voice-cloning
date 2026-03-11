@@ -4,13 +4,9 @@ python-multipart>=0.0.9
 soundfile>=0.12.1
 numpy
 
-# Audio processing (resampling, format conversion)
-torch>=2.1.0
-torchaudio>=2.1.0
-
 # MLX backend (Apple Silicon) — requires transformers==5.0.0rc3
 mlx-audio @ git+https://github.com/Blaizzy/mlx-audio.git
 transformers==5.0.0rc3
 
-# PyTorch backend (CPU / CUDA) — optional, needs transformers==4.57.3 (conflicts with MLX)
-# qwen-tts>=0.0.8
+# PyTorch backend (CPU / CUDA) — optional, conflicts with MLX transformers pin
+# pip install torch torchaudio "qwen-tts>=0.0.8" "transformers==4.57.3"

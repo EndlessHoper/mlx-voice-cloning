@@ -9,6 +9,7 @@ Built with [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) and [MLX](https://gi
 - macOS with Apple Silicon (M1+)
 - Python 3.10+
 - Node.js 18+
+- ffmpeg (`brew install ffmpeg`)
 
 ## Setup
 
@@ -58,7 +59,7 @@ Environment variables:
 
 ## Tech stack
 
-- **Backend**: FastAPI + MLX Audio + torchaudio
+- **Backend**: FastAPI + MLX Audio + ffmpeg
 - **Frontend**: React + Framer Motion + Vite
 - **Model**: Qwen3-TTS 1.7B (fp32 MLX conversion)
 
