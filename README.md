@@ -60,7 +60,7 @@ Environment variables:
 ## Tech stack
 
 - **Backend**: FastAPI + MLX Audio + ffmpeg
-- **Frontend**: React + Framer Motion + Vite
+- **Frontend**: React + Vite
 - **Model**: Qwen3-TTS 1.7B (fp32 MLX conversion)
 
 ## License
