@@ -7,7 +7,7 @@ Built with [Qwen3-TTS](https://github.com/QwenLM/Qwen3-TTS) and [MLX](https://gi
 ## Requirements
 
 - macOS with Apple Silicon (M1+)
-- Python 3.10+
+- Python 3.10+ and [uv](https://docs.astral.sh/uv/)
 - Node.js 18+
 - ffmpeg (`brew install ffmpeg`)
 
